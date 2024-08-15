@@ -23,11 +23,16 @@
     color: #FFFFFF;
 }
 
+.color{
+    background-color: #E6533C;
+
+}
 
 
 .display-flex{
     display: flex;
 }
+
 
 
 /* header part */
@@ -81,12 +86,36 @@
     display: none;
 }
 
-.text-border{
+.text-size{
     width: 32.5rem;
-    height: 17.6rem;
-    font-weight: 700;
+    height: 13.5rem;
+    font-size: 50px;
+    
+   
+}
+.text-pera{
+    font-size: 10px;
+    margin-top: -20px;
 }
 
+/* banner part */
+.box-size{
+    width: 37.5rem;
+    height: 27.5rem;
+    padding-left: 80px;
+}
+.btn1{
+    border-radius: 15px;
+}
+
+.container-img{
+    width: 21.9rem;
+    height: 36.3rem;
+}
+
+.img-banner{
+    justify-content: end;
+}
 
 
 
@@ -104,6 +133,6 @@
         display: none;
     }
     .hide{
-        display: none;
+        display: block;
     }
 }
