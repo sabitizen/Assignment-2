@@ -95,7 +95,7 @@
 }
 .text-pera{
     font-size: 10px;
-    margin-top: -20px;
+    
 }
 
 /* banner part */
@@ -108,13 +108,56 @@
     border-radius: 15px;
 }
 
-.container-img{
-    width: 21.9rem;
-    height: 36.3rem;
+
+.banner-contant{
+    width: 22rem;
+    height: 36.5rem;
+    position: relative;
 }
 
-.img-banner{
-    justify-content: end;
+
+    
+
+
+/* box */
+.box1{
+    width: 7.5rem;
+    height: 5rem;
+    background-color: #303030;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    right: 220px;
+    top: 230px;
+}
+
+.box-2{
+    width: 7.5rem;
+    height: 5rem;
+    background-color: #303030;
+    border-radius: 10px;
+    position: absolute;
+    left: 650px;
+    bottom: 25px;
+
+
+}
+
+.text-box-2{
+    padding-left: 10px;
+    
+}
+
+.clr-ball{
+    width: 20px;
+    height: 20px;
+    background-color: orangered;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.text-pera{
+    font-size: 10px;
 }
 
 
