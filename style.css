@@ -39,21 +39,62 @@
 }
 .brand{
     padding-left: 70px;
+    color: #E6533C;
 }
 
 .nav-items{
     padding-right: 70px;
+    box-shadow: 1px solid #FFFFFF;
+}
+.home-bg{
+    background-color: #E6533C
+    
+    
+    
 }
 
 .text-color{
     color: #FFFFFF;
 }
 
+
 .key-item{
     list-style: none;
     margin-right: 30px;
+    padding: 5px 10px;
+    border-radius: 30px;
 }
 
 .nav-links{
     text-decoration: none;
+}
+/* icon */
+.iconbar{
+    margin: 25px;
+    
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* responsive part */
+@media screen and (max-width: 576px) {
+    .navbar, .nab-items{
+        flex-direction: column;
+    }
+    .nav-items{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
 }
