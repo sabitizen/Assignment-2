@@ -19,6 +19,9 @@
 
 
 /* shared styles */
+.text-color{
+    color: #FFFFFF;
+}
 
 
 
@@ -76,6 +79,12 @@
 
 .hide{
     display: none;
+}
+
+.text-border{
+    width: 32.5rem;
+    height: 17.6rem;
+    font-weight: 700;
 }
 
 
