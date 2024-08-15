@@ -22,16 +22,27 @@
 .text-color{
     color: #FFFFFF;
 }
+.display-flex{
+    display: flex;
+}
+
+.text-pera{
+    font-size: 10px;
+    
+}
 
 .color{
     background-color: #E6533C;
 
 }
 
-
-.display-flex{
-    display: flex;
+.container-size{
+    max-width: 1440px;
+    height: 715px;
 }
+
+
+
 
 
 
@@ -93,10 +104,7 @@
     
    
 }
-.text-pera{
-    font-size: 10px;
-    
-}
+
 
 /* banner part */
 .box-size{
@@ -159,7 +167,35 @@
 .text-pera{
     font-size: 10px;
 }
+/* section 2 */
 
+.dark{
+    background-color: black;
+}
+
+.container2{
+    max-width: 1044px;
+    height: 451px;
+    margin: 0 auto;
+    border: 4px solid orangered;
+}
+
+.txt-box{
+    width: 671px;
+    height: 48px;
+    margin: 0 auto;
+}
+.txt-container2{
+    text-align: center;
+}
+
+.imgboxcenter{
+    margin-left: 80px;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
 
 
 
@@ -178,4 +214,15 @@
     .hide{
         display: block;
     }
+
+    .navbar, .nav-items, .container-size, .box-2{
+        flex-direction: column;
+    }
+
+    .container-imgbox{
+        flex-direction: column;
+    }
+
+
+
 }
