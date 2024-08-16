@@ -168,6 +168,10 @@
     font-size: 10px;
 }
 /* section 2 */
+.container-imgbox{
+    max-width: 1440px;
+    height: 715px;
+}
 
 .dark{
     background-color: black;
@@ -196,6 +200,27 @@
 .img-circle{
     border-radius: 50%;
 }
+
+.runbox{
+    max-width: 443px;
+    height: 289px;
+
+}
+.run-section{
+    background-color: #303030;
+    margin: 0 auto;
+    max-width: 1060px;
+    height: 371px;
+    justify-content: space-between;
+}
+
+
+.runimg{
+    max-width: 366px;
+    height: 312px;
+    
+}
+
 
 
 
