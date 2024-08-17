@@ -247,6 +247,17 @@
     border-collapse: collapse;
 }
 
+/* input tag */
+.input-tag{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr),;
+}
+
+.select-tag{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 
 
 
