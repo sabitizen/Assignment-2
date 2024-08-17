@@ -38,7 +38,6 @@
 
 .container-size{
     max-width: 1440px;
-    height: 715px;
 }
 
 
@@ -99,7 +98,6 @@
 
 .text-size{
     width: 32.5rem;
-    height: 13.5rem;
     font-size: 50px;
     
    
@@ -109,7 +107,6 @@
 /* banner part */
 .box-size{
     width: 37.5rem;
-    height: 27.5rem;
     padding-left: 80px;
 }
 .btn1{
@@ -119,7 +116,6 @@
 
 .banner-contant{
     width: 22rem;
-    height: 36.5rem;
     position: relative;
 }
 
@@ -130,7 +126,6 @@
 /* box */
 .box1{
     width: 7.5rem;
-    height: 5rem;
     background-color: #303030;
     text-align: center;
     border-radius: 10px;
@@ -141,7 +136,6 @@
 
 .box-2{
     width: 7.5rem;
-    height: 5rem;
     background-color: #303030;
     border-radius: 10px;
     position: absolute;
@@ -170,7 +164,6 @@
 /* section 2 */
 .container-imgbox{
     max-width: 1440px;
-    height: 715px;
 }
 
 .dark{
@@ -179,14 +172,12 @@
 
 .container2{
     max-width: 1044px;
-    height: 451px;
     margin: 0 auto;
-    border: 4px solid orangered;
+    
 }
 
 .txt-box{
     width: 671px;
-    height: 48px;
     margin: 0 auto;
 }
 .txt-container2{
@@ -203,23 +194,59 @@
 
 .runbox{
     max-width: 443px;
-    height: 289px;
+    padding: 80px 80px;
 
 }
 .run-section{
     background-color: #303030;
     margin: 0 auto;
     max-width: 1060px;
-    height: 371px;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 
 .runimg{
     max-width: 366px;
-    height: 312px;
+    margin: 40px;
+    border-radius: 10px;
     
 }
+.btnclr{
+    background-color: #E6533C;
+    padding: 10px 30px;
+    border-radius: 20px ;
+
+}
+
+/* bmi section */
+
+.bmi-text{
+    max-width: 671px;
+    margin: 0 auto;
+}
+
+.input-area{
+    max-width: 1440px;
+    background-color: #303030;
+}
+/* bmi calculator */
+.bmi-calc{
+    max-width: 310px;
+    height: 216px;
+    border: 3px solid orangered;
+    
+}
+.table-border{
+    margin: 0 auto;
+    align-items: center;
+}
+
+.table-border, tr, th, td{
+    border: 0.5px solid white;
+    border-collapse: collapse;
+}
+
 
 
 
@@ -245,6 +272,10 @@
     }
 
     .container-imgbox{
+        flex-direction: column;
+    }
+
+    .run-section{
         flex-direction: column;
     }
 
