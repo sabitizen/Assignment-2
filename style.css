@@ -229,6 +229,7 @@
 .input-area{
     max-width: 1440px;
     background-color: #303030;
+    justify-content: space-around;
 }
 /* bmi calculator */
 .bmi-calc{
@@ -251,12 +252,87 @@
 .input-tag{
     display: grid;
     grid-template-columns: repeat(2, 1fr),;
+    gap: 5px;
+}
+
+.input-bg-color{
+    background-color: #303030;
 }
 
 .select-tag{
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+.cal-btn{
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* meet our team */
+
+.meet-text{
+    text-align: center;
+}
+
+/* img div */
+
+.main-div-team{
+    margin: 0 auto;
+    max-width: 1060px;
+    background-color: #303030;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    
+
+}
+
+.img-div{
+    max-width: 100%;
+    height: 272px;
+    margin: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+.child{
+    position: relative;
+    
+}
+.position-size{
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+
+}
+
+.meet-team{
+    padding-bottom: 50px;
+}
+
+.footer-section{
+    background-color: #303030;
+    padding-top: 20px;
+    
+}
+.flex-direction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.hed-clr{
+    color: #E6533C;
+}
+
+.hrline{
+    margin:100px 100px;
+}
+
+
 
 
 
@@ -288,6 +364,14 @@
 
     .run-section{
         flex-direction: column;
+    }
+
+    .input-area{
+        flex-direction: column;
+    }
+
+    .small-divice{
+        grid-template-columns: 1fr;
     }
 
 
