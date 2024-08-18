@@ -170,6 +170,11 @@
     background-color: black;
 }
 
+.dark-section{
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
 .container2{
     max-width: 1044px;
     margin: 0 auto;
@@ -191,6 +196,19 @@
 .img-circle{
     border-radius: 50%;
 }
+
+/* practice section */
+
+.pimg-div{
+    max-width: 300px;
+    
+}
+
+.practice-div{
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
 
 .runbox{
     max-width: 443px;
@@ -372,6 +390,14 @@
 
     .small-divice{
         grid-template-columns: 1fr;
+    }
+
+    .device{
+        flex-direction: column;
+    }
+
+    .practice-div{
+        flex-direction: column;
     }
 
 
